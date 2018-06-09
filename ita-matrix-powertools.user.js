@@ -1987,7 +1987,7 @@ function printAAc1(){
         printNotification("Error: Failed to validate Passengers in printAAc1");
         return false;
       }
-      var url = "https://www.aa.com/goto/metasearch?ITEN=GOOGLE,,US,";
+      var url = "https://www.aa.com/goto/metasearch?ITEN=GOOGLE,," + edition + ",";
       if (currentItin["itin"].length === 1){
         url+="oneWay";
       } else {

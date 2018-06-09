@@ -403,7 +403,7 @@ function createUsersettings(){
     document.getElementById('mptlhEdition').onclick=function(){toggleSettings("lhEdition");};
     document.getElementById('mptlxEdition').onclick=function(){toggleSettings("lxEdition");};
     document.getElementById('mptCabintoggler').onclick=function(){toggleSettings("cabin");};
-    document.getElementById('configcloser').onclick=function(){toggleVis(document.getElementById("mptSettings"));};
+    document.getElementById('configcloser').onclick=function(){toggleVis(document.getElementById("mptSettings")); printLinksContainer(); };
     document.getElementById('mptStartparse').onclick=function(){document.getElementById('mptStartparse').style.display="none";setTimeout(function(){fePS();}, 50);}; 
   
     // Build passengers
